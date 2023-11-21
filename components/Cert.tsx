@@ -58,7 +58,7 @@ export const Cert = () => {
                 <div style={{ flexGrow: 1 }}></div>
                 <div>
                     <div>DATED THIS <TextField forceUpper={true} /> DAY OF <TextField forceUpper={true} />, <TextField /></div>
-                    <div><img src="/sig.png" style={{ width: 305 }} /></div>
+                    <div><img src="/sig.png" style={{ width: 305 }} alt="LMP signature" /></div>
                     <div>LISA MARIE PARKER, CSR 13441, RPR, CLR</div>
                 </div>
             </div>

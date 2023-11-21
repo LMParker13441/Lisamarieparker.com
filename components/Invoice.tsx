@@ -5,7 +5,7 @@ import { InvoiceQuickFill } from "./InvoiceQuickFill";
 
 export const Invoice = () => {
     return <>
-        <img src="/logo.png" style={{ width: 225 }} />
+        <img src="/logo.png" style={{ width:225 }} alt="LMP logo" />
         <br />
         <br />
         <div style={{ display: 'flex' }}>

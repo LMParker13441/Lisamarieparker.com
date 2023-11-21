@@ -7,15 +7,17 @@ export const Item = (props: { onChange: (i: any) => void }) => {
     const [price, setPrice] = useState(0);
     const [total, setTotal] = useState(0);
 
+    const { onChange } = props; //descruption onChange from props
+
     useEffect(() => {
         setTotal(quantity * price);
     },
         [quantity, price]);
 
     useEffect(() => {
-        if (props.onChange)
-            props.onChange(total);
-    }, [total])
+        if (onChange)
+            onChange(total);
+    }, [total, onChange])
 
     return <tr>
         <td style={{  padding:3 }}><TextField onInput={setQuantity} /></td>
