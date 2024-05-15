@@ -44,7 +44,7 @@ export const Cert = () => {
             <div style={{ lineHeight: 2.5 }} >&nbsp;</div>
             <div style={{ lineHeight: 2 }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                I, LISA MARIE PARKER, CSR 13441, RPR, CLR,
+                I, LISA MARIE PARKER, CSR 13441,
                 OFFICIAL REPORTER PRO TEMPORE OF THE SUPERIOR COURT OF
                 THE STATE OF CALIFORNIA, FOR THE COUNTY OF LOS ANGELES,
                 DO HEREBY CERTIFY THAT I DID CORRECTLY REPORT THE

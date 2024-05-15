@@ -11,7 +11,7 @@ export const Invoice = () => {
         <div style={{ display: 'flex' }}>
             <div style={{ width: '100%' }}>
                 <div style={{ fontSize: 20, fontWeight: 'bold' }}>LMP Reporting, LLC</div>
-                <div>Lisa Marie Parker, RPR, CLR, California CSR No. 13441</div>
+                <div>Lisa Marie Parker, California CSR No. 13441</div>
                 <div>EIN: 83-3224285</div>
             </div>
             <div style={{ fontSize: 25, fontWeight: 'bold', textAlign: 'right' }}>INVOICE</div>
