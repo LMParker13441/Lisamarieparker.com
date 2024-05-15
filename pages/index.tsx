@@ -18,7 +18,7 @@ const Homepage = () => {
           <h3>EIN: 83-3224285</h3>
         </div>
         <div>
-          <h3>Lisa Marie Parker, RPR, CSR #13441, CLR</h3>
+          <h3>Lisa Marie Parker, CSR #13441</h3>
         </div>
       </div>
       <ul>
