@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  target: 'experimental-serverless-trace',
+  output: 'standalone', // Enable output tracing for serverless environments
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
